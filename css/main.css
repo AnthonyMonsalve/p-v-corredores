@@ -1,0 +1,65 @@
+html, body{height:100%;}
+
+body{
+	background-image: url('../assets/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover; 
+	color: #0C3158;
+	display: flex;
+	justify-content: center;
+}
+.login-user{
+	width: 350px;
+	height: 443px;
+	background-color: rgba(255,255,255,.8);
+	padding: 25px 25px 5px 25px;
+	margin: 100px 0;
+	border: solid 2px #E9E9E9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	-webkit-box-shadow: 0px -1px 50px -3px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px -1px 50px -3px rgba(0,0,0,0.75);
+	box-shadow: 0px -1px 50px -3px rgba(0,0,0,0.75);
+}
+.titulo{
+	border-bottom: solid 1px #B8B8B8;
+	width: 100%;
+	padding: 20px 0 15px 0;
+}
+.titulo-login{
+	text-align: center;
+	margin: 2px;
+}
+.titulo-login.primero{
+	font-size: 22px;
+}
+.titulo-login.segundo{
+	font-size: 18px;
+}
+.titulo-login.tercer{
+	font-size: 14px;
+}
+.inicia-sesion{
+	margin-top: 15px;
+}
+.formulario-login{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border-bottom: solid 1px #B8B8B8;
+	padding: 5px 0 15px 0;
+}
+.formulario-login input{
+	margin: 5px;
+}
+.registro{
+	width: 100%;
+	margin-top: 10px;
+}
+.registro a{
+	font-size: 14px;
+}
+
+@media (min-width: 1024px) { }

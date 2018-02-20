@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>En construcción</title>
+
+    <!-- Loading Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Loading Flat UI -->
+    <link href="css/demo.css" rel="stylesheet">
+    <link href="css/flat-ui.css" rel="stylesheet">
+
+	<!-- font-family Ubuntu de google -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400" rel="stylesheet">
+
+	<style>
+		html, body{height:100%;}
+		body{
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		article{
+			background-color: rgba(12,20,38,.26);
+			padding: 0 10px;
+			color: white;
+			position: fixed;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+		.otra-esquina{
+			position: absolute;
+			top: 0;
+			left: 0;
+			color: white;
+			margin: 5px;
+			width: 70px;
+			height: 70px;
+			border-radius: 50px;
+			background-color: #123D69;
+			padding: 20px 10px 10px 10px;
+			cursor: pointer;
+		}
+		.otra-esquina:hover{
+			background-color: #0B4F94;
+		}
+		.otra-esquina a{
+		color: white;
+		}
+		.esquina{
+			position: absolute;
+			top: 0;
+			right: 0;
+			color: white;
+			margin: 10px 5px;
+			background-color: #123D69;
+			padding: 5px 10px 7px 13px;
+			cursor: pointer;
+			border: solid 5px #0A2A4A;
+		}
+		.esquina:hover :after{
+			content: "+58 424-3039869";
+			position: absolute;
+			top: 50px;
+
+		}		
+		#myVideo {
+	    position: fixed;
+	    right: 0;
+	    bottom: 0;
+	    min-width: 100%; 
+	    min-height: 100%;
+		}
+	</style>
+</head>
+<body>
+
+	<video autoplay muted loop id="myVideo">
+	  <source src="assets/Laptop - 1625.mp4" type="video/mp4">
+	</video>
+
+	<div class="esquina">
+		<span> Anthony Monsalve </span>
+	</div>
+	<div class="otra-esquina">
+		<a href="index.html">Volver</a>
+	</div>
+	<article>
+		<img src="assets/sketch.png" alt="">
+		<h1>Diseño web en Construcción</h1>
+	</article>
+	
+</body>
+</html>
